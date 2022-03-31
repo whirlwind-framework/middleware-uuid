@@ -1,0 +1,27 @@
+{
+    "name": "whirlwind-framework/middleware-uuid",
+    "description": "Whirlwind framework uuid middleware library",
+    "keywords": [
+        "middleware uuid"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Stepanenko",
+            "email": "alex.stepanenko@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.4||>=8.0",
+        "ext-json": "*",
+        "whirlwind-framework/framework": "*",
+        "ramsey/uuid": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Whirlwind\\Middleware\\Uuid\\": "src"
+        }
+    }
+}
